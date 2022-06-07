@@ -4,30 +4,53 @@
   <head>
     <title>Class 1 code demo!!!</title>
       <style>
-          li{
-              color: red;
+          h1{
+              color: yellow;
+              background-color: black;
           }
       </style>
   </head>
 
   <body>
-    <h1>Hi, let's learn about semantic html!!!</h1>
-    <p>This is a paragraph tag. paragraphs are used to hold a body of text.</p>
-    <ul>
-      <li style="color: green">I Organize lists of information with unordered or ordered lists</li>
-      <li>List items are used to store the information in a list</li>
-    </ul>
+    <header>
+      <h1>Favorite Song</h1>
+    </header>
+    <main>
+      <h1>Class 1 Lab</h1>
 
-    <script>
-      let user = prompt('What is your name?');
-      console.log('The user\'s name is ' + user)
+      <script>
+        let user = prompt('What is your name?');
+        console.log('The user\'s name is ' + user)
 
-      let color = prompt('What is your favorite color?');
-      console.log('Your favorite color is: ' + color);
+        let song = prompt('What is your favorite song?');
+        console.log('Your favorite color is: ' + song);
 
-      alert('Hi there, ' + user + '. Your favorite color is ' + color);
+        let artist = prompt('Who\'s it by?');
+        console.log(song + ' by ' + artist);
 
-    </script>
+        let feel = prompt('How would you describe it to someone who hasn\'t heard it before?');
+        console.log('It sounds ' + feel);
 
+        alert(user + ' LOVES ' + song + ' by ' + artist + " because it\'s sooooo " + feel + "!");
+
+      </script>
+      <p style="color:red;background-color:aqua;">
+        What is you name?
+      </p>
+      <p style="color:green;background-color:brown">
+        What is your favorite song?
+      </p>
+      <p style="color:purple;background-color:gold">
+        Who's it by?
+      </p>
+      <p style="color:blue;background-color:orange">
+        How would you describe it to someone who hasn't heard it before?
+      </p>
+    </main>
+
+    <footer>
+      &copy; 2022 TJ Parker
+    </footer>
+    
   </body>
 </html>
